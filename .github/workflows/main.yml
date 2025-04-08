@@ -11,7 +11,7 @@ on:
 
 jobs:
   "run-jest-tests":
-    runs-on: Yashs-MacBook-Air
+    runs-on: self-hosted
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
